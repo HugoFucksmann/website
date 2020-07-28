@@ -3,7 +3,7 @@
 
 #cuerpo{
     height: 90%;
-    background-image: url('/assets/fondoP.jpg');
+    background-image: url('https://github.com/HugoFucksmann/website/blob/master/src/assets/fondoP.jpg');
     background-size: cover;
 }
 

@@ -34,7 +34,7 @@ function maquina(contenedor,texto,intervalo){
         // Salimos del Timer y quitamos la barra baja (_)
         clearInterval(timer);
         cnt.innerHTML = cnt.innerHTML.substr(0,longitud);
-        cnt.innerHTM("<br>")
+        
         return true;
      } else {
         // En caso contrario.. seguimos
