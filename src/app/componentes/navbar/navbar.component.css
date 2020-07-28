@@ -1,0 +1,32 @@
+
+#menuL{
+    width: 70px;
+    height: 90%;
+    background-color: #242831;
+    float: left;
+    border-right: 5px solid #33313d;
+}
+
+#logo img{
+    width: 50px;
+    margin-top: 10px;
+    animation: giro3d 1.5s;
+    animation-iteration-count: infinite;
+    transform: rotate3d(0,1,0,360deg);
+}
+
+.iconosL{
+    width: 30px;
+    margin: 15px;
+    margin-top: 40px;
+    transition: ease 0.4s;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #000;
+    background-color: #363441;
+}
+
+.iconosL:hover{
+    background-color: #0BBE35;
+    
+}
