@@ -11,7 +11,7 @@
 #maquinas{
     background: image("/src/assets/circulo.png") no-repeat fixed center;
     background-size: cover;
-    font-size: 7em;
+    font-size: 6em;
     text-align: center;
     padding-top: 100px;
     font-family: 'Anonymous Pro', monospace;
