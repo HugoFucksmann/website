@@ -3,17 +3,15 @@
 
 #cuerpo{
     height: 90%;
-    background: image("/src/assets/circulo.png") no-repeat fixed center;
+    background-image: url('/assets/fondoP.jpg');
     background-size: cover;
-    
 }
 
 #maquinas{
-    background: image("/src/assets/circulo.png") no-repeat fixed center;
-    background-size: cover;
+    
     font-size: 6em;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
     font-family: 'Anonymous Pro', monospace;
     background-clip: text; 
     color: transparent; 
