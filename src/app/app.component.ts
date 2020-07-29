@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularWeb';
+
+
+  prosesaAbriendo(msj){
+
+    this.respuesta=msj;
+  }
+
+  respuesta:boolean;
 }
