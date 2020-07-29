@@ -3,12 +3,12 @@
 
 #cuerpo{
     height: 90%;
-   /* background-image: url('https://subefotos.com/ver/?d43d7a350e05e464e0de939a6ad1952eo.jpg');
-    background-size: cover;*/
+    background-image: url('https://raw.githubusercontent.com/HugoFucksmann/website/master/src/assets/fondoP.jpg');
+    background-size: cover;
 }
 
 #maquinas{
-    
+    line-height : 85px;
     font-size: 6em;
     text-align: center;
     padding-top: 80px;

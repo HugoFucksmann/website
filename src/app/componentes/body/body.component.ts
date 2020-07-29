@@ -24,6 +24,8 @@ function maquina(contenedor,texto,intervalo){
   longitud = texto.length;
   // Obtenemos referencia del div donde se va a alojar el texto.
   cnt = document.getElementById(contenedor);
+  console.log(cnt);
+  
   var i=0;
   // Creamos el timer
   timer = setInterval(function(){
