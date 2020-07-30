@@ -11,7 +11,8 @@ export class MaquinaEscribirService {
     longitud = texto.length;
     // Obtenemos referencia del div donde se va a alojar el texto.
     cnt = document.getElementById(contenedor);
-    console.log(cnt);
+    
+    
     
     var i=0;
     // Creamos el timer
@@ -24,11 +25,13 @@ export class MaquinaEscribirService {
           clearInterval(timer);
           cnt.innerHTML = cnt.innerHTML.substr(0,longitud);
           
+          
           return true;
        } else {
           // En caso contrario.. seguimos
           i++;
-       }},intervalo);
+       }
+    },intervalo);
   };
 
   constructor() { }
@@ -38,4 +41,4 @@ export class MaquinaEscribirService {
 
 var div="maquinas"
 var texto = "Programador Full-Stack";
-var longitud, cnt, timer;
+var longitud:number , cnt:HTMLElement , timer:number;

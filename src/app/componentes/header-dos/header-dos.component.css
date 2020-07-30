@@ -7,10 +7,20 @@ mat-toolbar{
     color: white;
     opacity: 0.9;
     position: fixed;
-    
+    height: 65px;
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
 }
 
+#logo{
+  height: 25px;
+  padding-left: 10px;
+}
 
+#sidenavIzq{
+  height: 100%;
+  width: 100%;
+  background-image: url('https://raw.githubusercontent.com/HugoFucksmann/website/gh-pages/assets/wall2.jpg');
+}
 
 mat-drawer{
   width: 220px;
