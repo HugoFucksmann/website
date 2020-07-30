@@ -1,0 +1,28 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    opacity: 0.9;
+    position: fixed;
+    
+}
+
+
+
+mat-drawer{
+  width: 220px;
+  background-color: rgb(31, 30, 30);
+  height: 100%;
+  position: fixed;
+  margin-top: 62px;
+}
+
+a:focus, button:focus, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus, input[type="file"]:focus,
+input[type="radio"]:focus, input[type="checkbox"]:focus, input:focus {
+    outline-offset: 0;
+    outline: 0;
+    
+}

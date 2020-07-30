@@ -2,7 +2,7 @@
 
 
 #cuerpo{
-    height: 90%;
+    height: 100%;
     background-image: url('https://raw.githubusercontent.com/HugoFucksmann/website/master/src/assets/fondoP.jpg');
     background-size: cover;
 }
@@ -41,5 +41,11 @@ h2{
 @media screen and (max-device-width: 600px){
     #maquinas{
         font-size: 4em;
+    }
+
+    #cuerpo{
+        
+        background-image: url('https://raw.githubusercontent.com/HugoFucksmann/website/master/src/assets/fondoCell.png');
+        
     }
 }
