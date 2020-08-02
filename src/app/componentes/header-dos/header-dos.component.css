@@ -6,8 +6,8 @@ mat-toolbar{
     background-color: rgb(15, 15, 15);
     color: white;
     opacity: 0.9;
-    position: fixed;
-    height: 65px;
+    
+    height: 60px;
     box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
 }
 
@@ -19,19 +19,68 @@ mat-toolbar{
 #sidenavIzq{
   height: 100%;
   width: 100%;
-  background-image: url('https://raw.githubusercontent.com/HugoFucksmann/website/gh-pages/assets/wall2.jpg');
+  /*background-image: url('https://raw.githubusercontent.com/HugoFucksmann/website/gh-pages/assets/wall2.jpg');*/
+
 }
 
 mat-drawer{
-  width: 220px;
-  background-color: rgb(31, 30, 30);
+  width: 250px;
+  background-color: rgb(46, 42, 42);
   height: 100%;
   position: fixed;
-  margin-top: 62px;
+  margin-top: 60px;
+  border-right: 2px solid #b9b5b5;
 }
 
 button:focus {
     outline-offset: 0;
     outline: 0;
     
+}
+
+/*Iconos 3D-----------------------------------------
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: #fff;
+  
+}
+
+.icon-3d:hover {
+  -webkit-animation: icon3d 200ms infinite;
+        animation: icon3d 200ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px rgba(33,150,243,1);
+  }
+  25% {
+    text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px rgba(33,150,243,1);
+  }
+  50% {
+    text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px rgba(33,150,243,1);
+  }
+  75% {
+    text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px rgba(33,150,243,1);
+  }
+  100% {
+    text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px rgba(33,150,243,1);
+  }
+}
+
+/*Celuuu------------------------------------------*/
+
+@media screen and (max-device-width: 600px){
+
+  #sidenavIzq{
+    background-size: cover;
+    background-image: url('https://raw.githubusercontent.com/HugoFucksmann/website/gh-pages/assets/fondoCell.png');
+  }
+
+  mat-drawer{
+    width: 100%;
+  }
 }

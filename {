@@ -1,0 +1,107 @@
+[33mcommit 2092c3335de7b01e03ff090df30ec9f40f1eafbe[m[33m ([m[1;36mHEAD -> [m[1;32mcambios[m[33m)[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Thu Jul 30 02:12:48 2020 -0300
+
+    avanzamos en la landing page
+
+[33mcommit c46ec7b2360c076026d366fde53124dcaec09a27[m[33m ([m[1;32mTransformandoaMaterial[m[33m)[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Wed Jul 29 22:09:13 2020 -0300
+
+    agregamos angularMaterial y la sidenav2
+
+[33mcommit 5744b64b96fde5ff4cf847c8f9d7fadf9858d5b6[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Wed Jul 29 21:50:12 2020 -0300
+
+    agregamos angularMaterial y la sidenav
+
+[33mcommit 16ece5428dad7cc731715f1e0bf96fe0e93aa37a[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Wed Jul 29 02:48:48 2020 -0300
+
+    arrancamos aca a pasar a angularMaterials
+
+[33mcommit 48a3b19783e95eadc3366fa0f053f32cd04b2972[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Wed Jul 29 01:05:49 2020 -0300
+
+    creamos servicio maquinaEscribir y limpiamos el codigo
+
+[33mcommit db529daf6fd72502260b7acdb4bfc0bcd5106ebb[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 21:18:58 2020 -0300
+
+    correccion escritura3
+
+[33mcommit e6ab185e9cadcae361fd349ca483f29f02223586[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 21:10:11 2020 -0300
+
+    correccion escritura
+
+[33mcommit 09870f50f486d9efc1e3b2454912a35b291c3fa1[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 20:18:13 2020 -0300
+
+    a ver si ahora anda2
+
+[33mcommit b9979ebdec2cbfb8fdfe48906666b01574e7f7fb[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 20:15:36 2020 -0300
+
+    a ver si ahora anda
+
+[33mcommit b5ddc25a411ef66ef843a2461e698f037f4fd055[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 19:15:53 2020 -0300
+
+    correccion efecto tipado2
+
+[33mcommit 611005002a9017f1e26ea345691e47756524835a[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 19:12:43 2020 -0300
+
+    correccion efecto tipado
+
+[33mcommit 60f0e302569261c4196a882d1e02fd858fe3f160[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 18:53:46 2020 -0300
+
+    arreglando fondo
+
+[33mcommit 289d52558bec34def25dbdc87778691688f722c3[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 18:04:35 2020 -0300
+
+    generando deploy
+
+[33mcommit 7bc732edcfea9e21c39897a4516dfdd7ed0118fa[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 17:17:39 2020 -0300
+
+    subiendo proyecto angular
+
+[33mcommit 46b928b7aaf5f68e1b9e00e8f9adf434bd16a8d8[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 17:08:32 2020 -0300
+
+    actualizando pagina
+
+[33mcommit 502e71353e0a575ca01a493b18fe6dbf98c597d1[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Tue Jul 28 06:09:13 2020 -0300
+
+    terminando landing page
+
+[33mcommit 3d0e51a85659ed0c253e24f43ddbe4963f22d4de[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Mon Jul 27 16:52:34 2020 -0300
+
+    ponemos el header
+
+[33mcommit 0b4ea52e61cc4ad2c525c511eb9c6f7ac6bcf545[m
+Author: Hugo Fucksmann <hugoffuksmann@gmail.com>
+Date:   Mon Jul 27 01:44:44 2020 -0300
+
+    initial commit

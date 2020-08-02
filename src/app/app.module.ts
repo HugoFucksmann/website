@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
@@ -14,6 +14,12 @@ import { MaterialModule } from './material.module'
 //servicios
 import { MaquinaEscribirService } from './servicios/maquina-escribir.service';
 import { HeaderDosComponent } from './componentes/header-dos/header-dos.component'
+
+//rutas
+import { RoutingModule } from './routing/routing.module';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,9 +31,9 @@ import { HeaderDosComponent } from './componentes/header-dos/header-dos.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    RoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [
     MaquinaEscribirService
