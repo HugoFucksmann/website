@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {MatCardModule} from '@angular/material/card';
 @Component({
   selector: 'app-cuerpo-dos',
   templateUrl: './cuerpo-dos.component.html',
@@ -11,5 +11,7 @@ export class CuerpoDosComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  
 
 }
