@@ -45,15 +45,17 @@ Boton Comenzar
     margin-left: 40%;
     width: 200px;
     margin-top: 50px;
-    background-color: transparent;
+    background-color: beige;
     box-shadow: 5px 5px 8px 7px rgba(0,0,0,0.75);
     animation-name: opacidadx2;
     animation-duration: 11s;
+    transition: 1s ease;
 }
 
 #comenzar:hover{
-    background-color: orangered;
-    box-shadow: -1px 0px 518px 6px rgba(0,0,0,0.75);
+    width: 220px;
+    
+    box-shadow: inset -1px 0px 518px 6px rgba(0,0,0,0.75);
 }
 
 button:focus {
