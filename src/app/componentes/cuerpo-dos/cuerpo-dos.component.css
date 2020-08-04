@@ -1,7 +1,14 @@
+
+
 img{
     border-radius: 50%;
     height: 250px;
     
+    
+}
+
+button{
+    margin-left: 50px;
     
 }
 
@@ -12,23 +19,47 @@ img{
 }
 
 #cv{
-    background-color: rgb(212, 212, 155);
+    /**/
+        
+    background: url(https://raw.githubusercontent.com/HugoFucksmann/website/ramaPrueba/src/assets/prog.jpg) no-repeat;
+    background-size: cover;
     font-family: 'Anonymous Pro', monospace;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 5px;
     
     
+}
+
+.cvPlaca{
+    background: rgba(9, 0, 26, 0.8);
+    border-radius: 45px;
+    margin-bottom: 40px;
+    padding: 20px;
+    color: rgb(209, 209, 209);
     
 }
 
 
 /* Celphone !!!------------------------------------------------------------------------------------------*/
 
-@media screen and (max-device-width: 600px){
+@media screen and (max-device-width: 750px){
+
+    #cv{
+        background-color: rgb(212, 212, 155);
+        padding: 0;
+        
+    }
+
+    .cvPlaca{
+        padding-top: 10px 0 10px 0;
+        border-radius: 0;
+        background: rgba(9, 0, 26, 0.7);
+    }
 
     #descripcion{
-    
+        margin-top: 5px;
         font-size: 12pt;
-        line-height: 28px;
+        line-height: 27px;
     }
 
     img{

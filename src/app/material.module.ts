@@ -6,6 +6,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 @NgModule({
     imports: [
 
@@ -16,7 +18,9 @@ import {MatCardModule} from '@angular/material/card';
         MatProgressSpinnerModule,
         MatIconModule,
         MatToolbarModule,
-        MatCardModule
+        MatCardModule,
+        MatTabsModule,
+        MatButtonToggleModule
     ]
 })
 export class MaterialModule{}
