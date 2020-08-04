@@ -7,7 +7,7 @@ import { CuerpoDosComponent } from '../componentes/cuerpo-dos/cuerpo-dos.compone
 
 const rutas: Routes = [
   {path: '', component: BodyComponent},
-  {path: 'website/home', component: CuerpoDosComponent}
+  {path: 'home', component: CuerpoDosComponent}
   
 ]
 

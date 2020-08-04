@@ -7,14 +7,31 @@ img{
 
 #descripcion{
     margin-top: 20px;
-    
+    line-height: 40px;
+    font-size: 14pt;
 }
 
 #cv{
     background-color: rgb(212, 212, 155);
     font-family: 'Anonymous Pro', monospace;
     padding-top: 50px;
-    font-size: 14pt;
-    line-height: 40px;
     
+    
+    
+}
+
+
+/* Celphone !!!------------------------------------------------------------------------------------------*/
+
+@media screen and (max-device-width: 600px){
+
+    #descripcion{
+    
+        font-size: 12pt;
+        line-height: 28px;
+    }
+
+    img{
+        height: 200px;
+    }
 }
