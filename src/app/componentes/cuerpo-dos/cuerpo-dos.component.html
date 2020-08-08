@@ -1,10 +1,10 @@
 <section id="cv">
-  <section class="cvPlaca container">
-    <img  class="img-fluid img-thumbnail mx-auto d-block" src="https://raw.githubusercontent.com/HugoFucksmann/website/ramaPrueba/src/assets/colo%20(2).jpeg">   
+  <section data-aos="zoom-in-down" data-aos-duration="1000"  class="cvPlaca container">
+    <img data-aos="fade-down" data-aos-delay="400"  class="img-fluid img-thumbnail mx-auto d-block" src="https://raw.githubusercontent.com/HugoFucksmann/website/ramaPrueba/src/assets/colo%20(2).jpeg">   
   
     <hr class="my-4 container">
       
-    <p id="descripcion" class="container text-center d-block mx-auto">
+    <p data-aos="fade-up" data-aos-delay="400" id="descripcion" class="container text-center d-block mx-auto">
       Hola ! Me llamo Hugo Fucksmann, soy programador Freelance Full Stack. Especializado en Programación BackEnd y Logica. 
       Desarrollo sitios web dinamicos, manejo base de datos, aplicaciones para Android y escritorio. Las tecnologias 
       principales que utilizo son Java y JavaScript con la ayuda de frameworks como Angular o Vue, tambien Spring y el motor de 
@@ -16,19 +16,57 @@
 
 </section>
 
-<div class="jumbotron text-center">
+<div data-aos="zoom-in-up" class="jumbotron text-center">
   <h1 class="display-4">Vamos a comenzar !!</h1>
   <p class="lead">El mundo Web es infinito, estos son algunos simples proyectos para jugar y aprender a entender lo que podemos crear</p>
   <hr class="my-4">
 
-  <button mat-raised-button class="mr-3  mb-3">Sistema Login</button>
-  <button mat-raised-button class="mr-3  mb-3">Tienda Online</button>
-  <button mat-raised-button class="mr-3 mb-3">Gestor Empleados</button>
-</div>
+  <!--
+  <div data-aos="zoom-in-down" data-aos-delay="100" class="container">
+    <mat-card class="m-2" >
+      <mat-card-title>Sistema Login</mat-card-title>
+      <mat-card-subtitle>Gestiona tus sesions de forma segura</mat-card-subtitle>
+    </mat-card>
 
-<section>
+    <mat-card class="m-2">
+      <mat-card-title>Gestor Empleados</mat-card-title>
+      <mat-card-subtitle>personaliza la administracion de tu negocio</mat-card-subtitle>
+    </mat-card>
   
-</section>
+    <mat-card class="m-2">
+      <mat-card-title>Tienda Online</mat-card-title>
+      <mat-card-subtitle>Vende tus productos sin ningun tipo de fronteras</mat-card-subtitle>
+    </mat-card>
+  </div>
+-->
+<div data-aos="zoom-in-down" data-aos-delay="100" class="container">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+         Paginas Web
+        </mat-panel-title>
+        <mat-panel-description>
+          <p>Existen muchos tipos de paginas web</p>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>This is the primary content of the panel.</p>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Self aware panel
+        </mat-panel-title>
+        <mat-panel-description>
+          Currently I am {{panelOpenState ? 'open' : 'closed'}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>I'm visible because I am open</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+</div>
     
     
     

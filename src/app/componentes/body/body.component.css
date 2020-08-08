@@ -1,4 +1,8 @@
-
+button:focus {
+    outline-offset: 0;
+    outline: 0;
+    
+}
 
 #cuerpo{
     height: 100%;
@@ -42,27 +46,16 @@ Boton Comenzar
 ----------------------------------------------------------*/
 
 #comenzar{
-    margin-left: 40%;
+    margin-left: 42%;
+    
     width: 200px;
     margin-top: 50px;
     background-color: beige;
     box-shadow: 5px 5px 8px 7px rgba(0,0,0,0.75);
-    animation-name: opacidadx2;
-    animation-duration: 11s;
-    transition: 1s ease;
-}
-
-#comenzar:hover{
-    width: 220px;
-    
-    box-shadow: inset -1px 0px 518px 6px rgba(0,0,0,0.75);
-}
-
-button:focus {
-    outline-offset: 0;
-    outline: 0;
     
 }
+
+
 
 /* Celphone !!!------------------------------------------------------------------------------------------*/
 
@@ -89,22 +82,17 @@ button:focus {
         opacity: 0.6;
         border-radius: 5px;
         margin-left: 22%;
-        
+        transition: 1s linear;
          
+    }
+
+    #comenzar:hover{
+        background-color: rgb(39, 98, 165);
     }
 }
 
 @keyframes opacidad {
     0% {opacity: 0;}
-    15% {opacity: 0;}
-    100% {opacity: 100;}
-}
-
-@keyframes opacidadx2 {
-    0% {opacity: 0;}
-    15% {opacity: 0;}
-    40% {opacity: 10;}
-    80% {opacity: 50;}
-    90% {opacity: 70;}
+    30% {opacity: 0;}
     100% {opacity: 100;}
 }

@@ -1,19 +1,35 @@
 <mat-toolbar>
-    <button mat-icon-button (click)="drawer.toggle()">
-     <mat-icon>menu</mat-icon>
-   </button>
-   <img id="logo" src="assets/nombre.png ">
-   <span class="example-spacer"></span>
-   <button class="icon-3d" mat-icon-button>
-     <mat-icon>email</mat-icon>
-   </button>
-   <button mat-icon-button class="icon-3d">
+
+  <button mat-icon-button (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <img id="logo" src="assets/nombre.png ">
+  <span class="example-spacer"></span>
+  <button mat-icon-button (click)="openBottomSheet()">
+    <mat-icon>email</mat-icon>
+  </button>
+
+  <button mat-icon-button [matMenuTriggerFor]="menu">
     <mat-icon>share</mat-icon>
   </button>
- </mat-toolbar>
 
- <mat-drawer-container>
-    <mat-drawer #drawer mode="side">
-      <div id="sidenavIzq"></div>
-    </mat-drawer> 
-  </mat-drawer-container>
+    <mat-menu #menu="matMenu" style="position: fixed;">
+
+      <a href="linkedin.com/in/hugo-fucksmann-5422181b1" mat-menu-item style="text-decoration: none;">
+        <mat-icon><img src="assets/linkedin.png" style="width: 20px;" class="mb-3"></mat-icon>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="https://github.com/HugoFucksmann/Chat" mat-menu-item style="text-decoration: none;">
+        <mat-icon><img src="assets/github.png" style="width: 20px;" class="mb-3"></mat-icon>
+        <span>GitHub</span>
+      </a>
+
+    </mat-menu>
+</mat-toolbar>
+
+<mat-drawer-container>
+  <mat-drawer #drawer mode="side">
+    <div id="sidenavIzq"></div>
+  </mat-drawer> 
+</mat-drawer-container>

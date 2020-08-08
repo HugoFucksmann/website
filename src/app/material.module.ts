@@ -8,6 +8,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+
 @NgModule({
     imports: [
 
@@ -20,7 +25,11 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
         MatToolbarModule,
         MatCardModule,
         MatTabsModule,
-        MatButtonToggleModule
+        MatButtonToggleModule,
+        MatFormFieldModule,
+        MatExpansionModule,
+        MatMenuModule,
+        MatBottomSheetModule
     ]
 })
 export class MaterialModule{}

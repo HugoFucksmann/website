@@ -1,0 +1,24 @@
+.iconosL{
+    width: 40px;
+    margin: 10px 0 0 35px;
+    
+    transition: ease 0.4s;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #000;
+    background-color: #363441;
+}
+
+.iconosL:hover{
+    background-color: #0BBE35;
+    
+}
+
+/* Celphone !!!------------------------------------------------------------------------------------------*/
+
+@media screen and (max-device-width: 750px){
+
+    .iconosL{
+        width: 25px;
+    }
+}
