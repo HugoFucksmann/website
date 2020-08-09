@@ -16,7 +16,7 @@ export class BodyComponent implements OnInit {
 
   ngOnInit(): void {
     
-   this.maquinaEscribir.maquinaDeEscribir("maquinas","Programador Full-Stack",150);
+   this.maquinaEscribir.maquinaDeEscribir("maquinas","Programador Full-Stack",160);
   }
 
 }
